@@ -9,7 +9,7 @@ public class App
     public static void main( String[] args ) {
 
 
-        try (Connection connection = DriverManager.getConnection("jdbc:postgresql://172.17.0.2:5432/dvdrental", "postgres", "postgres")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:postgresql://postgres_dvdrental:5432/dvdrental", "postgres", "postgres")) {
 
 
 
